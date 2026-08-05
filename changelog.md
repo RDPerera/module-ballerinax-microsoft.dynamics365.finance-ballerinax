@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+- Removed the placeholder default value (`https://your-org.operations.dynamics.com/data`) from the `serviceUrl` parameter of every connector's `init` function, across all 30 packages. `serviceUrl` is now a required parameter, so client initialization no longer silently targets a non-existent organization when the URL is omitted. The expected URL structure is now documented in the `init` docstring.
+- Reworded each package's README overview line to drop the fully-qualified module name (e.g. "The `microsoft.dynamics365.finance.coreorg` connector provides access..." is now "The connector provides access...").
+
 ## [0.2.0]
 
 ### Changed

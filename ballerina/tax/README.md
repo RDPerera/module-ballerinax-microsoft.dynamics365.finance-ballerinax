@@ -2,7 +2,7 @@
 
 [Microsoft Dynamics 365 Finance](https://www.microsoft.com/en-us/dynamics-365/products/finance) is Microsoft's cloud ERP solution for financial management, covering general ledger, accounts receivable and payable, fixed assets, budgeting, cash and bank management, and tax.
 
-The `microsoft.dynamics365.finance.tax` connector provides access to Microsoft Dynamics 365 Finance Tax entities via the OData REST API.
+The connector provides access to Microsoft Dynamics 365 Finance Tax entities via the OData REST API.
 
 ### Key Features
 
